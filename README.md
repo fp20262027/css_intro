@@ -2,7 +2,6 @@
 
 ## Transformación visual del Campus Tecnológico Prometeo
 
-**Duración aproximada:** 2 horas  
 **Modalidad:** trabajo individual  
 **Archivos de partida:** `index.html`  
 **Archivo que debes crear:** `css/estilos.css`
@@ -14,22 +13,6 @@ El equipo del Campus Tecnológico Prometeo ha preparado el contenido de su nueva
 Tu trabajo consiste en diseñar la página mediante una hoja de estilos externa. Debes mejorar su legibilidad, organización visual y coherencia sin utilizar todavía sistemas avanzados de maquetación.
 
 La estructura HTML ya está preparada. Antes de modificarla, intenta resolver cada requisito utilizando los selectores CSS adecuados.
-
-## Objetivos de la práctica
-
-Al finalizar la actividad deberás ser capaz de:
-
-- Vincular correctamente una hoja de estilos externa.
-- Escribir reglas CSS con sintaxis válida.
-- Utilizar selectores de etiqueta, clase, identificador y atributo.
-- Combinar selectores para localizar elementos concretos.
-- Comprender la cascada, la especificidad y la herencia.
-- Aplicar colores, unidades y propiedades tipográficas.
-- Reutilizar valores mediante variables CSS.
-- Controlar el modelo de caja de los elementos.
-- Estilizar enlaces, tablas y formularios.
-- Utilizar pseudoclases y pseudoelementos.
-- Investigar problemas con las herramientas de desarrollo del navegador.
 
 
 ## Estructura del proyecto
@@ -421,10 +404,7 @@ Añade comentarios breves para separar las secciones principales de la hoja:
 
 ## Entrega
 
-Entrega una carpeta comprimida con este nombre:
-
-```text
-apellido_nombre_css.zip
+Entrega una carpeta comprimida.
 ```
 
 La carpeta debe contener:
@@ -437,26 +417,3 @@ apellido_nombre_css/
 ```
 
 No incluyas archivos que no se utilicen.
-
-
-## Lista de comprobación final
-
-Antes de entregar, comprueba que:
-
-- [ ] La hoja CSS se carga correctamente.
-- [ ] La consola y DevTools no muestran errores relacionados con los estilos.
-- [ ] No hay propiedades o valores CSS mal escritos.
-- [ ] No has utilizado `!important`.
-- [ ] No has utilizado Flexbox, Grid, `position` ni media queries.
-- [ ] No has añadido estilos en línea al HTML.
-- [ ] Las variables están declaradas y se utilizan.
-- [ ] Existe una jerarquía tipográfica clara.
-- [ ] El texto tiene contraste suficiente.
-- [ ] El foco de teclado es visible.
-- [ ] Las tarjetas aplican correctamente el modelo de caja.
-- [ ] La tabla tiene cabecera, bordes, espaciado y filas alternas.
-- [ ] El formulario muestra estados de interacción y validación.
-- [ ] Los enlaces tienen estados visibles.
-- [ ] Comprendes las declaraciones que aparecen tachadas en DevTools.
-- [ ] Has guardado en `estilos.css` los cambios probados en DevTools.
-
