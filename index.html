@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portal de actividades del Campus Tecnológico Prometeo"
+    />
+    <title>Campus Tecnológico Prometeo</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <a class="enlace-salto" href="#contenido-principal"
+      >Saltar al contenido principal</a
+    >
+
+    <header id="cabecera-principal">
+      <p class="etiqueta-superior">Curso 2026-2027</p>
+      <h1>Campus Tecnológico Prometeo</h1>
+      <p class="subtitulo">
+        Recursos, talleres y actividades para comenzar en desarrollo web
+      </p>
+
+      <nav class="navegacion-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#presentacion">Inicio</a></li>
+          <li><a href="#itinerarios">Itinerarios</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#inscripcion">Inscripción</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenido-principal">
+      <section id="presentacion" class="seccion introduccion">
+        <p class="seccion-etiqueta">Bienvenida</p>
+        <h2>Aprende construyendo</h2>
+        <p class="texto-destacado">
+          En este campus encontrarás actividades prácticas para aprender a crear
+          páginas web estructuradas, comprensibles y visualmente coherentes.
+        </p>
+        <p>
+          Los contenidos están organizados de manera progresiva. Puedes comenzar
+          por los fundamentos de HTML, continuar con CSS y terminar incorporando
+          comportamiento con JavaScript.
+        </p>
+
+        <aside class="aviso aviso-importante" aria-labelledby="titulo-aviso">
+          <h3 id="titulo-aviso">Antes de comenzar</h3>
+          <p>
+            Necesitarás un editor de código, un navegador actualizado y ganas de
+            experimentar.
+          </p>
+          <a class="enlace-secundario" href="#recursos"
+            >Consultar herramientas recomendadas</a
+          >
+        </aside>
+      </section>
+
+      <section id="itinerarios" class="seccion">
+        <p class="seccion-etiqueta">Formación</p>
+        <h2>Itinerarios disponibles</h2>
+        <p>
+          Elige un itinerario para consultar sus objetivos, contenidos y
+          actividad principal.
+        </p>
+
+        <article class="curso destacado" data-nivel="inicial">
+          <p class="curso-nivel">Nivel inicial</p>
+          <h3>Fundamentos de HTML</h3>
+          <p class="curso-descripcion">
+            Aprende a estructurar correctamente el contenido de una página
+            utilizando HTML semántico.
+          </p>
+          <h4>Contenidos principales</h4>
+          <ul class="lista-contenidos">
+            <li>Estructura básica de un documento</li>
+            <li>Etiquetas semánticas</li>
+            <li>Enlaces, listas y tablas</li>
+            <li>Formularios accesibles</li>
+          </ul>
+          <p class="curso-duracion">
+            <strong>Duración estimada:</strong> 6 horas
+          </p>
+          <a
+            class="boton-enlace"
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            >Consultar HTML en MDN</a
+          >
+        </article>
+
+        <article class="curso curso-recomendado" data-nivel="inicial">
+          <p class="curso-nivel">Nivel inicial</p>
+          <h3>Fundamentos de CSS</h3>
+          <p class="curso-descripcion">
+            Aplica color, tipografía, espaciado y estados visuales a documentos
+            HTML.
+          </p>
+          <h4>Contenidos principales</h4>
+          <ul class="lista-contenidos">
+            <li>Selectores y combinadores</li>
+            <li>Cascada, especificidad y herencia</li>
+            <li>Unidades, colores y tipografía</li>
+            <li>Modelo de caja y pseudoclases</li>
+          </ul>
+          <p class="curso-duracion">
+            <strong>Duración estimada:</strong> 8 horas
+          </p>
+          <a
+            class="boton-enlace"
+            href="https://developer.mozilla.org/es/docs/Web/CSS"
+            >Consultar CSS en MDN</a
+          >
+        </article>
+
+        <article class="curso" data-nivel="intermedio">
+          <p class="curso-nivel">Nivel intermedio</p>
+          <h3>Introducción a JavaScript</h3>
+          <p class="curso-descripcion">
+            Incorpora comportamiento e interacción a las páginas creadas con
+            HTML y CSS.
+          </p>
+          <h4>Contenidos principales</h4>
+          <ul class="lista-contenidos">
+            <li>Variables y tipos de datos</li>
+            <li>Condicionales y bucles</li>
+            <li>Funciones</li>
+            <li>Introducción al DOM</li>
+          </ul>
+          <p class="curso-duracion">
+            <strong>Duración estimada:</strong> 10 horas
+          </p>
+          <a
+            class="boton-enlace"
+            href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+            >Consultar JavaScript en MDN</a
+          >
+        </article>
+
+        <article class="curso proximamente" data-nivel="avanzado">
+          <p class="curso-nivel">Nivel avanzado</p>
+          <h3>Proyecto web completo</h3>
+          <p class="curso-descripcion">
+            Integra los conocimientos adquiridos en un proyecto personal
+            completo.
+          </p>
+          <p class="estado-curso">Próximamente</p>
+          <button type="button" disabled>Inscripción no disponible</button>
+        </article>
+      </section>
+
+      <section id="competencias" class="seccion">
+        <p class="seccion-etiqueta">Objetivos</p>
+        <h2>Qué aprenderás</h2>
+
+        <div class="competencia">
+          <h3>Estructurar</h3>
+          <p>Organizar información mediante elementos HTML con significado.</p>
+        </div>
+
+        <div class="competencia">
+          <h3>Presentar</h3>
+          <p>
+            Crear una apariencia coherente utilizando hojas de estilos
+            reutilizables.
+          </p>
+        </div>
+
+        <div class="competencia">
+          <h3>Comprobar</h3>
+          <p>
+            Utilizar las herramientas del navegador para analizar y corregir
+            errores.
+          </p>
+        </div>
+
+        <div class="competencia">
+          <h3>Mejorar</h3>
+          <p>
+            Revisar el código y aplicar criterios básicos de accesibilidad y
+            mantenimiento.
+          </p>
+        </div>
+      </section>
+
+      <section id="agenda" class="seccion">
+        <p class="seccion-etiqueta">Planificación</p>
+        <h2>Agenda de talleres</h2>
+        <p>Consulta las próximas sesiones presenciales del campus.</p>
+
+        <div class="tabla-contenedor">
+          <table>
+            <caption>
+              Calendario de talleres de noviembre
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Fecha</th>
+                <th scope="col">Taller</th>
+                <th scope="col">Nivel</th>
+                <th scope="col">Aula</th>
+                <th scope="col">Plazas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><time datetime="2026-11-18">18 de noviembre</time></td>
+                <td>HTML semántico</td>
+                <td>Inicial</td>
+                <td>Aula 2</td>
+                <td>12</td>
+              </tr>
+              <tr class="sesion-destacada">
+                <td><time datetime="2026-11-20">20 de noviembre</time></td>
+                <td>Selectores CSS</td>
+                <td>Inicial</td>
+                <td>Aula 4</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td><time datetime="2026-11-24">24 de noviembre</time></td>
+                <td>DevTools para principiantes</td>
+                <td>Inicial</td>
+                <td>Aula 1</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td><time datetime="2026-11-26">26 de noviembre</time></td>
+                <td>Modelo de caja</td>
+                <td>Inicial</td>
+                <td>Aula 4</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td><time datetime="2026-11-30">30 de noviembre</time></td>
+                <td>Revisión de proyectos</td>
+                <td>Intermedio</td>
+                <td>Laboratorio</td>
+                <td>6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="nota-tabla">
+          Las plazas se actualizan al comienzo de cada semana. La sesión
+          destacada corresponde al contenido actual del curso.
+        </p>
+      </section>
+
+      <section id="novedades" class="seccion">
+        <p class="seccion-etiqueta">Actualidad</p>
+        <h2>Avisos y novedades</h2>
+
+        <article class="noticia noticia-urgente">
+          <p class="noticia-fecha">
+            <time datetime="2026-11-16">16 de noviembre de 2026</time>
+          </p>
+          <h3>Cambio de aula</h3>
+          <p>
+            El taller de selectores CSS se impartirá finalmente en el aula 4.
+          </p>
+          <a href="#agenda">Consultar la agenda</a>
+        </article>
+
+        <article class="noticia">
+          <p class="noticia-fecha">
+            <time datetime="2026-11-12">12 de noviembre de 2026</time>
+          </p>
+          <h3>Nuevos recursos disponibles</h3>
+          <p>
+            Se han incorporado referencias sobre accesibilidad, validación y
+            DevTools.
+          </p>
+          <a href="#recursos">Ver recursos</a>
+        </article>
+
+        <article class="noticia">
+          <p class="noticia-fecha">
+            <time datetime="2026-11-08">8 de noviembre de 2026</time>
+          </p>
+          <h3>Reto semanal</h3>
+          <p>
+            Esta semana tendrás que mejorar una página sin modificar su
+            estructura HTML.
+          </p>
+          <a href="#reto">Leer el reto</a>
+        </article>
+      </section>
+
+      <section id="recursos" class="seccion">
+        <p class="seccion-etiqueta">Materiales</p>
+        <h2>Recursos recomendados</h2>
+
+        <h3>Documentación técnica</h3>
+        <ul class="lista-recursos">
+          <li>
+            <a href="https://developer.mozilla.org/es/" rel="external"
+              >MDN Web Docs</a
+            >
+            <span class="tipo-recurso">Documentación</span>
+          </li>
+          <li>
+            <a href="https://validator.w3.org/" rel="external"
+              >Validador HTML del W3C</a
+            >
+            <span class="tipo-recurso">Herramienta</span>
+          </li>
+          <li>
+            <a href="https://jigsaw.w3.org/css-validator/" rel="external"
+              >Validador CSS del W3C</a
+            >
+            <span class="tipo-recurso">Herramienta</span>
+          </li>
+        </ul>
+
+        <h3>Archivos del curso</h3>
+        <ul class="lista-descargas">
+          <li>
+            <a href="documentos/chuleta-css.pdf" download>Chuleta de CSS</a>
+          </li>
+          <li>
+            <a href="documentos/ejercicios-selectores.pdf" download
+              >Ejercicios de selectores</a
+            >
+          </li>
+          <li>
+            <a href="documentos/devtools.pdf" download>Guía de DevTools</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="reto" class="seccion reto-semanal">
+        <p class="seccion-etiqueta">Actividad voluntaria</p>
+        <h2>Reto de la semana</h2>
+        <p>
+          Crea dos temas visuales diferentes modificando únicamente los valores
+          de las variables CSS declaradas en <code>:root</code>.
+        </p>
+        <ol>
+          <li>Define variables para colores, espaciados y bordes.</li>
+          <li>Utiliza las variables en toda la hoja.</li>
+          <li>Guarda una combinación clara y otra oscura.</li>
+          <li>Comprueba que el contenido sigue siendo legible.</li>
+        </ol>
+      </section>
+
+      <section id="preguntas" class="seccion">
+        <p class="seccion-etiqueta">Ayuda</p>
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+          <summary>¿Puedo modificar el HTML?</summary>
+          <p>
+            Solo cuando el enunciado lo permita. Intenta resolver primero el
+            diseño mediante CSS.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Puedo utilizar <code>!important</code>?</summary>
+          <p>
+            No. Debes resolver los conflictos comprendiendo la cascada y la
+            especificidad.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Puedo utilizar Flexbox o Grid?</summary>
+          <p>
+            No en esta actividad. Esos sistemas de maquetación se estudiarán en
+            próximos bloques.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cómo sé qué regla está ganando?</summary>
+          <p>
+            Inspecciona el elemento y revisa las reglas aplicadas y el panel de
+            estilos calculados.
+          </p>
+        </details>
+      </section>
+
+      <section id="inscripcion" class="seccion">
+        <p class="seccion-etiqueta">Participación</p>
+        <h2>Inscripción en talleres</h2>
+        <p>Completa el formulario. Los campos marcados son obligatorios.</p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Datos personales</legend>
+
+            <div class="campo-formulario">
+              <label for="nombre">Nombre y apellidos</label>
+              <input
+                id="nombre"
+                name="nombre"
+                type="text"
+                minlength="3"
+                required
+                placeholder="Escribe tu nombre completo"
+              />
+            </div>
+
+            <div class="campo-formulario">
+              <label for="email">Correo electrónico</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="nombre@ejemplo.com"
+              />
+            </div>
+
+            <div class="campo-formulario">
+              <label for="grupo">Grupo</label>
+              <select id="grupo" name="grupo" required>
+                <option value="">Selecciona tu grupo</option>
+                <option value="dam1">DAM1</option>
+                <option value="daw1">DAW1</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Selección del taller</legend>
+
+            <div class="campo-formulario">
+              <label for="taller">Taller</label>
+              <select id="taller" name="taller" required>
+                <option value="">Selecciona un taller</option>
+                <option value="html">HTML semántico</option>
+                <option value="selectores">Selectores CSS</option>
+                <option value="devtools">DevTools</option>
+                <option value="caja">Modelo de caja</option>
+              </select>
+            </div>
+
+            <p class="grupo-etiqueta">Modalidad preferida</p>
+            <div class="opcion-formulario">
+              <input
+                id="presencial"
+                name="modalidad"
+                type="radio"
+                value="presencial"
+                checked
+              />
+              <label for="presencial">Presencial</label>
+            </div>
+            <div class="opcion-formulario">
+              <input
+                id="directo"
+                name="modalidad"
+                type="radio"
+                value="directo"
+              />
+              <label for="directo">Seguimiento en directo</label>
+            </div>
+
+            <div class="campo-formulario">
+              <label for="comentarios">Comentarios</label>
+              <textarea
+                id="comentarios"
+                name="comentarios"
+                rows="5"
+                maxlength="300"
+                placeholder="Indica si necesitas alguna adaptación"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <div class="opcion-formulario aceptacion">
+            <input
+              id="condiciones"
+              name="condiciones"
+              type="checkbox"
+              required
+            />
+            <label for="condiciones"
+              >He revisado la fecha y los requisitos del taller</label
+            >
+          </div>
+
+          <button class="boton-principal" type="submit">
+            Enviar inscripción
+          </button>
+          <button class="boton-secundario" type="reset">
+            Borrar formulario
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="pie-pagina">
+      <p><strong>Campus Tecnológico Prometeo</strong></p>
+      <p>Lenguajes de Marcas y Sistemas de Gestión de Información</p>
+
+      <nav aria-label="Enlaces del pie de página">
+        <ul>
+          <li><a href="#cabecera-principal">Volver al inicio</a></li>
+          <li><a href="mailto:campus@example.com">Contactar</a></li>
+          <li><a href="#preguntas">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+
+      <p class="texto-legal">
+        <small>Actividad educativa para DAM1 y DAW1. Curso 2026-2027.</small>
+      </p>
+    </footer>
+  </body>
+</html>
